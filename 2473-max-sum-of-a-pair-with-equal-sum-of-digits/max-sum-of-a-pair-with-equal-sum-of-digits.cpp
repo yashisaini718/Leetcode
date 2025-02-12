@@ -11,15 +11,18 @@ public:
     }
     int maximumSum(vector<int>& nums) {
         int n=nums.size();
-        map<int,vector<int>> digitSum;
+        map<int,int> digitSum;
         int ans=-1;
         for(int i=0;i<n;i++){
             int curr=Sum(nums[i]);
             if(digitSum.find(curr)!=digitSum.end()){
-                int sum=*max_element(digitSum[curr].begin(),digitSum[curr].end())+nums[i];
+                int sum=digitSum[curr]+nums[i];
                 ans=max(ans,sum);
+                digitSum[curr]=max(digitSum[curr],nums[i]);
             }
-            digitSum[curr].push_back(nums[i]);
+            else{
+                digitSum[curr]=nums[i];
+            }
         }
         return ans;
     }
