@@ -16,8 +16,7 @@ public:
         for(int i=0;i<n;i++){
             int curr=Sum(nums[i]);
             if(digitSum.find(curr)!=digitSum.end()){
-                int sum=digitSum[curr]+nums[i];
-                ans=max(ans,sum);
+                ans=max(ans,digitSum[curr]+nums[i]);
                 digitSum[curr]=max(digitSum[curr],nums[i]);
             }
             else{
