@@ -8,9 +8,10 @@ public:
             int num2=target-nums[i];
             if(mpp.find(num2)!=mpp.end()){
                 ans={i,mpp[num2]};
+                return ans;
             }
             mpp[nums[i]]=i;
         }
-        return ans;
-    }
+        return {};
+    }    
 };
