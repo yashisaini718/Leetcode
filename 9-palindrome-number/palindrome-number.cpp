@@ -7,7 +7,7 @@ public:
         if(x==0){
             return true;
         }
-        long long y=0 ;
+        /*long long y=0 ;
         long long n=x;
         while(x!=0){
             int d=x%10;
@@ -20,5 +20,12 @@ public:
         else{
             return false;
         }
+        */
+        string num= to_string(x);
+        reverse(num.begin(),num.end());
+        long long y=stoll(num);
+        long long z=x;
+        if(y==z) return true;
+        else return false;
     }
 };
