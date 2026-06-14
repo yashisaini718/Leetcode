@@ -9,18 +9,36 @@
  * };
  */
 class Solution {
+    // one way is to create a vector from the given list and then check for maximum sum pair 
+    // the other is to make second list that would be the reverse of this list and then use two pointers to keep track of maximum sum pair
 public:
     int pairSum(ListNode* head) {
-        vector<int>nodes;
-        ListNode *ptr=head;
-        while(ptr != nullptr){
-            nodes.push_back(ptr->val);
-            ptr=ptr->next;
+        //clone original list
+        ListNode* dummy = new ListNode(0);
+        ListNode* newNode = dummy;
+        ListNode* oldNode = head;
+        while( oldNode != nullptr){
+            newNode->next = new ListNode(oldNode->val);
+            newNode = newNode->next;
+            oldNode = oldNode->next;
         }
-        int n= nodes.size();
+        // reverse the cloned list
+        ListNode *clonedHead=dummy->next;
+        delete dummy;
+        ListNode *prev=nullptr;
+        ListNode *ptr=clonedHead;
+        while( ptr != nullptr){
+            ptr=clonedHead->next;
+            clonedHead->next=prev;
+            prev=clonedHead;
+            clonedHead=ptr;
+        }
+        ListNode *reverse=prev;
         int maxi=0;
-        for(int i=0;i<n/2;i++){
-            maxi=max(maxi,(nodes[i]+nodes[n-1-i]));
+        while(head != nullptr){
+            maxi=max(maxi, head->val+reverse->val);
+            head=head->next;
+            reverse=reverse->next;
         }
         return maxi;
     }
