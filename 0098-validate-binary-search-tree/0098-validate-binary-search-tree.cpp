@@ -12,6 +12,7 @@
 class Solution {
 
     // do an inorder traversal and check if it's sorted
+    // in a valid BST no duplicates are allowed
 
     void inorder(TreeNode *root, vector<int> &result){
         if(!root) return;
