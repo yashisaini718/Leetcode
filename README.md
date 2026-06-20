@@ -58,12 +58,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1344-angle-between-hands-of-a-clock](https://github.com/yashisaini718/Leetcode/tree/master/1344-angle-between-hands-of-a-clock) |
+| [1840-maximum-building-height](https://github.com/yashisaini718/Leetcode/tree/master/1840-maximum-building-height) |
 ## Array
 |  |
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/yashisaini718/Leetcode/tree/master/1732-find-the-highest-altitude) |
+| [1840-maximum-building-height](https://github.com/yashisaini718/Leetcode/tree/master/1840-maximum-building-height) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/yashisaini718/Leetcode/tree/master/1732-find-the-highest-altitude) |
+## Sorting
+|  |
+| ------- |
+| [1840-maximum-building-height](https://github.com/yashisaini718/Leetcode/tree/master/1840-maximum-building-height) |
 <!---LeetCode Topics End-->
