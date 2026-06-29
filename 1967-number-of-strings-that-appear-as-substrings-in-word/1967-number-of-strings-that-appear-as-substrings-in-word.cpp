@@ -17,5 +17,16 @@ public:
             }
         }
         return cnt;
+
+        // int cnt=0;
+        // for(string p:patterns)
+        // {
+        //     if(word.find(p)!=string::npos)
+        //     {
+        //         cnt++;
+        //     }
+
+        // }
+        // return cnt;
     }
 };
