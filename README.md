@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/yashisaini718/Leetcode/tree/master/0283-move-zeroes) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/yashisaini718/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1768-merge-strings-alternately](https://github.com/yashisaini718/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/yashisaini718/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/yashisaini718/Leetcode/tree/master/0283-move-zeroes) |
 | [1288-remove-covered-intervals](https://github.com/yashisaini718/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/yashisaini718/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1732-find-the-highest-altitude](https://github.com/yashisaini718/Leetcode/tree/master/1732-find-the-highest-altitude) |
