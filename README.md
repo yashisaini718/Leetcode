@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/yashisaini718/Leetcode/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/yashisaini718/Leetcode/tree/master/0283-move-zeroes) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/yashisaini718/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1768-merge-strings-alternately](https://github.com/yashisaini718/Leetcode/tree/master/1768-merge-strings-alternately) |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/yashisaini718/Leetcode/tree/master/0125-valid-palindrome) |
 | [1189-maximum-number-of-balloons](https://github.com/yashisaini718/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/yashisaini718/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1768-merge-strings-alternately](https://github.com/yashisaini718/Leetcode/tree/master/1768-merge-strings-alternately) |
