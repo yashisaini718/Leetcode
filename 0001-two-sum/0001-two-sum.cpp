@@ -1,4 +1,5 @@
 class Solution {
+    //TC: if unordered_map ; O(N) if map ; O(NlogN)
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         // making a hash map to keep the counter of a val with it's index 
