@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yashisaini718/Leetcode/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/yashisaini718/Leetcode/tree/master/0169-majority-element) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/yashisaini718/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1189-maximum-number-of-balloons](https://github.com/yashisaini718/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1331-rank-transform-of-an-array](https://github.com/yashisaini718/Leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/yashisaini718/Leetcode/tree/master/0001-two-sum) |
 | [0075-sort-colors](https://github.com/yashisaini718/Leetcode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/yashisaini718/Leetcode/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/yashisaini718/Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/yashisaini718/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0628-maximum-product-of-three-numbers](https://github.com/yashisaini718/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/yashisaini718/Leetcode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/yashisaini718/Leetcode/tree/master/0169-majority-element) |
 | [0628-maximum-product-of-three-numbers](https://github.com/yashisaini718/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1288-remove-covered-intervals](https://github.com/yashisaini718/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/yashisaini718/Leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -169,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/yashisaini718/Leetcode/tree/master/0169-majority-element) |
 | [1189-maximum-number-of-balloons](https://github.com/yashisaini718/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1833-maximum-ice-cream-bars](https://github.com/yashisaini718/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [3312-sorted-gcd-pair-queries](https://github.com/yashisaini718/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -185,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/yashisaini718/Leetcode/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/yashisaini718/Leetcode/tree/master/0191-number-of-1-bits) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/yashisaini718/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/yashisaini718/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
