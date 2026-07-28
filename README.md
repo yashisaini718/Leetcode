@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yashisaini718/Leetcode/tree/master/0001-two-sum) |
+| [0053-maximum-subarray](https://github.com/yashisaini718/Leetcode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/yashisaini718/Leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/yashisaini718/Leetcode/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/yashisaini718/Leetcode/tree/master/0283-move-zeroes) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/yashisaini718/Leetcode/tree/master/0053-maximum-subarray) |
 | [1301-number-of-paths-with-max-score](https://github.com/yashisaini718/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/yashisaini718/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/yashisaini718/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/yashisaini718/Leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/yashisaini718/Leetcode/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/yashisaini718/Leetcode/tree/master/0191-number-of-1-bits) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/yashisaini718/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
