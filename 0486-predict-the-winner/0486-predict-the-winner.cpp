@@ -1,6 +1,7 @@
 class Solution {
 public:
     int dp[21][21][2];
+    // in both case return only the max score player 1 can recieve so when player 1 chance the maximum score is player 1's but if player 2 chance the minimum score in that case will be the maximum score of player 1 
     int solve(int l,int r,vector<int>&nums,int turn)
     {
         if(l>r)
