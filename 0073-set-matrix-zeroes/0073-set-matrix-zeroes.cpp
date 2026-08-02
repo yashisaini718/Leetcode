@@ -4,7 +4,7 @@ public:
         int m = matrix.size();
         int n = matrix[0].size();
 
-        set<int>rows,columns;
+        unordered_set<int>rows,columns;
 
         for(int i=0; i<m; i++){
             for (int j=0; j<n; j++){
@@ -23,6 +23,6 @@ public:
         }
 
         return;
-        
+
     }
 };
