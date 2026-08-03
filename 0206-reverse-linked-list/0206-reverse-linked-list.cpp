@@ -9,29 +9,18 @@
  * };
  */
 class Solution {
+    ListNode* reverseHelper(ListNode* head, ListNode* ptr, ListNode* prev){
+        if (head == NULL) return prev;
+        ptr = head->next;
+        head->next = prev;
+        prev = head;
+        head = ptr;
+        return reverseHelper(head, ptr, prev);
+    }
 public:
     ListNode* reverseList(ListNode* head) {
-        if (head == NULL) return NULL;
-
-        stack<ListNode*>st;
-        ListNode* ptr = head;
-        
-        while (ptr != NULL){
-            st.push(ptr);
-            ptr = ptr->next;
-        }
-
-        head = st.top();
-        st.pop();
-        ListNode* dummy = head;
-
-        while(st.size()>0){
-            dummy->next = st.top();
-            st.pop();
-            dummy = dummy->next;
-        }
-
-        dummy->next = NULL;
-        return head;
+       ListNode* ptr = NULL;
+       ListNode* prev = NULL;
+       return reverseHelper(head, ptr, prev);
     }
 };
