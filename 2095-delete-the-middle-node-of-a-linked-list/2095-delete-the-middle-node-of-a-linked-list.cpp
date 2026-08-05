@@ -11,26 +11,24 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        // first count n
-        ListNode *ptr= head;
-        int n=0;
-        while(ptr != nullptr){
-            n++;
-            ptr=ptr->next;
+        if (head == NULL ) return NULL;
+        if (head->next == NULL) return NULL;
+        
+        // we want slow to stop one step before middle node and hence starting fast one step ahead gives correct result
+        ListNode* fast = head->next->next;
+        ListNode* slow = head;
+
+        while (fast != NULL && fast->next != NULL){
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        if (n == 1) return nullptr;
-        // use prev and curr pointrs to find the n/2 th node
-        int pos=0;
-        ptr=head;
-        ListNode *prev=nullptr;
-        while(pos < n/2){
-            prev=ptr;
-            ptr=ptr->next;
-            pos++;
-        }
-        // ptr points to n/2 th node & prev points to previous node
-        prev->next = ptr->next;
-        delete (ptr);
+
+        ListNode *temp = slow->next;
+
+        slow->next = slow->next->next;
+
+        delete temp;
+
         return head;
     }
 };
