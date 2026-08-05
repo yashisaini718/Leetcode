@@ -7,19 +7,45 @@
  * };
  */
 class Solution {
+    int listLen(ListNode* head){
+        int cnt = 1;
+        while(head != NULL){
+            head = head->next;
+            cnt++;
+        }
+        return cnt;
+    }
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        unordered_map<ListNode*,int>Nodes;
-        ListNode *ptr = headA;
-        while(ptr != NULL){
-            Nodes[ptr]=1;
-            ptr = ptr->next;
+        int lenA = listLen(headA);
+        int lenB = listLen(headB);
+
+        int diff = abs(lenA - lenB);
+
+        ListNode *ptrA = headA;
+        ListNode *ptrB = headB;
+
+        int counter =0;
+        if (lenA > lenB){
+            while (counter < diff){
+                counter++;
+                ptrA = ptrA->next;
+            }
         }
-        ptr = headB;
-        while(ptr != NULL){
-            if (Nodes.find(ptr) != Nodes.end()) return ptr;
-            ptr = ptr->next;
+        else {
+            while (counter < diff){
+                counter++;
+                ptrB = ptrB->next;
+            }
+
         }
+       
+        while(ptrA != NULL && ptrB != NULL){
+            if (ptrA == ptrB) return ptrA;
+            ptrA = ptrA->next;
+            ptrB = ptrB->next;
+        }
+        
         return NULL;
     }
 };
