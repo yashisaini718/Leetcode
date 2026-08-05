@@ -334,4 +334,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/yashisaini718/Leetcode/tree/master/0486-predict-the-winner) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0142-linked-list-cycle-ii](https://github.com/yashisaini718/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 <!---LeetCode Topics End-->
