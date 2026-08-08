@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/yashisaini718/Leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0125-valid-palindrome](https://github.com/yashisaini718/Leetcode/tree/master/0125-valid-palindrome) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/yashisaini718/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/yashisaini718/Leetcode/tree/master/1189-maximum-number-of-balloons) |
