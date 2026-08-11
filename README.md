@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/yashisaini718/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2094-finding-3-digit-even-numbers](https://github.com/yashisaini718/Leetcode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yashisaini718/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/yashisaini718/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/yashisaini718/Leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/yashisaini718/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3312-sorted-gcd-pair-queries](https://github.com/yashisaini718/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2149-rearrange-array-elements-by-sign](https://github.com/yashisaini718/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yashisaini718/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/yashisaini718/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/yashisaini718/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/yashisaini718/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3161-block-placement-queries](https://github.com/yashisaini718/Leetcode/tree/master/3161-block-placement-queries) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/yashisaini718/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1840-maximum-building-height](https://github.com/yashisaini718/Leetcode/tree/master/1840-maximum-building-height) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/yashisaini718/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2094-finding-3-digit-even-numbers](https://github.com/yashisaini718/Leetcode/tree/master/2094-finding-3-digit-even-numbers) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/yashisaini718/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/yashisaini718/Leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/yashisaini718/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/yashisaini718/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
