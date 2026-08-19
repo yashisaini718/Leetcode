@@ -24,7 +24,7 @@ class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
         int totalCount = 0;
-        map<int,vector<int>>mpp;
+        unordered_map<int,vector<int>>mpp;
         for(int i=0; i<reservedSeats.size(); i++){
             int row = reservedSeats[i][0];
             int col = reservedSeats[i][1];
