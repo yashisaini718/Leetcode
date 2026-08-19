@@ -1,5 +1,5 @@
 class Solution {
-    int countSeat(const vector<int> &reserved_cols){
+    int countSeat(vector<int> &reserved_cols){
         int maxi = 0;
         vector<int>seats(11,0);
         for(int it : reserved_cols){
@@ -36,6 +36,5 @@ public:
         }
         totalCount += (n-mpp.size())*(2);
         return totalCount;
-
     }
 };
