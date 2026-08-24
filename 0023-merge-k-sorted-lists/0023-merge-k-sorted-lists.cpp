@@ -9,6 +9,8 @@
  * };
  */
 
+// APPROACH : store all the nodes in a multiset and use custom comaprator to store in sorted order then use dummy pointer to get all the nodes in order
+
 struct CompareNodes{
     bool operator()(const ListNode *a, const ListNode *b) const { 
         return a->val < b->val;
@@ -37,5 +39,5 @@ public:
         curr -> next = nullptr;
         return dummy.next;
     }
-    
+
 };
