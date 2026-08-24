@@ -10,8 +10,9 @@
  */
 class Solution {
 public:
+
     ListNode* deleteDuplicates(ListNode* head) {
-        map<int,int>mpp;
+        map<int,int> mpp;
         ListNode *ptr = head;
         while(ptr != NULL){
             mpp[ptr -> val]++; 
@@ -48,8 +49,7 @@ public:
                 ptr = ptr->next;
             }
         }
-        return head;
         delete (dummy);
-        
+        return head; 
     }
 };
