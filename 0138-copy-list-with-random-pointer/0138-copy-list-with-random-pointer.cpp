@@ -15,19 +15,21 @@ public:
 */
 
 class Solution {
+//   APPROACH: USE A MAP TO KEEP TRACK OF THE CORRESPONDING COPIED NODES OF THE ORIGINAL NODES AND THEN COPY THE POINTER NEXT AND RANDOM BASED ON THIS MAP
 public:
     Node* copyRandomList(Node* head) {
         Node* ptr = head;
-        map<Node*, Node*>mpp;
+
+        map< Node*, Node* >mpp;
         while(ptr != NULL){
-            mpp[ptr] = new Node(ptr->val);
+            mpp[ptr] = new Node(ptr -> val);
             ptr = ptr -> next;
         }
         ptr = head;
         Node* curr = mpp[ptr];
         while( ptr != NULL){
-            curr->next = mpp[ptr->next];
-            curr->random = mpp[ptr->random];
+            curr -> next = mpp[ptr -> next];
+            curr -> random = mpp[ptr -> random];
             ptr = ptr -> next;
             curr = curr -> next;
         }
