@@ -14,9 +14,8 @@ public:
         // return true;
         // if (s == t) return true;
         // return false;
-
-        map<char,int>m1;
-        map<char,int>m2;
+        // approach 2: count characters in both strings TC: O(n)
+        unordered_map<char,int>m1,m2;
         for(char ch : s) m1[ch]++;
         for(char ch : t) m2[ch]++;
         for(char ch : s){
