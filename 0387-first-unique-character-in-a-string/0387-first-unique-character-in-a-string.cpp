@@ -2,7 +2,7 @@ class Solution {
 public:
     int firstUniqChar(string s) {
         int n = s.length();
-        int hash[26];
+        int hash[26] = {0};
         for(int i=0; i<n; i++){
             hash[s[i]-'a']++;
         }
