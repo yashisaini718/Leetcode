@@ -15,11 +15,12 @@ public:
         // if (s == t) return true;
         // return false;
         // approach 2: count characters in both strings TC: O(n)
-        unordered_map<char,int>m1,m2;
-        for(char ch : s) m1[ch]++;
-        for(char ch : t) m2[ch]++;
+        int m1[26];
+        int m2[26];
+        for(char ch : s) m1[ch-'a']++;
+        for(char ch : t) m2[ch-'a']++;
         for(char ch : s){
-            if (m1[ch] != m2[ch]) return false;
+            if (m1[ch-'a'] != m2[ch-'a']) return false;
         }
         return true;
     }
