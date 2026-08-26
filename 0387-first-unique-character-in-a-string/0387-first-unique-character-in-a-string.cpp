@@ -10,13 +10,12 @@ public:
         //     if(hash[s[i]-'a'] == 1) return i;
         // }
         // return -1;
-        unordered_map<char,pair<int,int>>mpp;
+        unordered_map<char,int>mpp;
         for(int i=n-1; i>=0; i--){
-            mpp[s[i]].first++;
-            mpp[s[i]].second = i;
+            mpp[s[i]]++;
         }
         for(int i=0; i<n; i++){
-            if (mpp[s[i]].first == 1){
+            if (mpp[s[i]] == 1){
                 return i;
             }
         }
