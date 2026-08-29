@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1768-merge-strings-alternately](https://github.com/yashisaini718/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [1859-sorting-the-sentence](https://github.com/yashisaini718/Leetcode/tree/master/1859-sorting-the-sentence) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/yashisaini718/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [2785-sort-vowels-in-a-string](https://github.com/yashisaini718/Leetcode/tree/master/2785-sort-vowels-in-a-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/yashisaini718/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/yashisaini718/Leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/yashisaini718/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/yashisaini718/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1859-sorting-the-sentence](https://github.com/yashisaini718/Leetcode/tree/master/1859-sorting-the-sentence) |
 | [2094-finding-3-digit-even-numbers](https://github.com/yashisaini718/Leetcode/tree/master/2094-finding-3-digit-even-numbers) |
+| [2785-sort-vowels-in-a-string](https://github.com/yashisaini718/Leetcode/tree/master/2785-sort-vowels-in-a-string) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/yashisaini718/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/yashisaini718/Leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/yashisaini718/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
