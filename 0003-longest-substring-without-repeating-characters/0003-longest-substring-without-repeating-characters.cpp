@@ -4,22 +4,21 @@ public:
         int n = s.length();
         
         int maxi = 0;
-
-        unordered_map<char,pair<int,int>>characters;
+        // no need to store count of elemnts
+        unordered_map<char,int>characters;
 
         int i = 0, j=0;
 
         while(i < n && j < n){
-            
+
             if(characters.find(s[j]) != characters.end()){
-                while(i <= characters[s[j]].second){
+                while(i <= characters[s[j]]){
                     characters.erase(s[i]);
                     i++;
                 }
             }
 
-            characters[s[j]].first++;
-            characters[s[j]].second = j;
+            characters[s[j]] = j;
             maxi = max(maxi, (j-i+1));
             j++;
         }
