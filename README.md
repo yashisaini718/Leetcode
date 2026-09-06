@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/yashisaini718/Leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/yashisaini718/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/yashisaini718/Leetcode/tree/master/0013-roman-to-integer) |
+| [0115-distinct-subsequences](https://github.com/yashisaini718/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/yashisaini718/Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/yashisaini718/Leetcode/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/yashisaini718/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/yashisaini718/Leetcode/tree/master/0053-maximum-subarray) |
+| [0115-distinct-subsequences](https://github.com/yashisaini718/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yashisaini718/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0486-predict-the-winner](https://github.com/yashisaini718/Leetcode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/yashisaini718/Leetcode/tree/master/0509-fibonacci-number) |
