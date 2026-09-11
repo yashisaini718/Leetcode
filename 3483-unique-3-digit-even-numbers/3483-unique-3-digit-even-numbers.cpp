@@ -1,24 +1,31 @@
 class Solution {
-    void solve(int count, int num, vector<bool>& used, vector<int>& digits, set<int>& results){
-        if (count == 3){
-            results.insert(num);
-            return;
-        }
-        for(int k=0; k<digits.size(); k++){
-            if (used[k]) continue;
-            if (count == 0 && digits[k] == 0) continue;
-            if (count == 2 && digits[k] % 2 != 0) continue;
-            used[k] = true;
-            solve(count+1, num*10+digits[k], used, digits, results);
-            used[k] = false;
-        }
-    }
-public:
 
+public:
     int totalNumbers(vector<int>& digits) {
-        vector<bool> used(digits.size(),false);
-        set<int> results;
-        solve(0, 0, used, digits, results);
-        return results.size();
+        int n = digits.size();
+
+        set<int> st;
+
+        for(int i = 0 ; i < n ; i ++){
+            if(digits[i] == 0) continue;
+
+            for(int j = 0 ; j < n ; j ++){
+                if(j == i) continue;
+
+                for(int k = 0 ; k < n ; k ++){
+                    if(k == i || k == j){
+                        continue;
+                    }
+
+                    if(digits[k] % 2 != 0) continue;
+
+                    int num = digits[i]*100 + digits[j]*10 + digits[k];
+
+                    st.insert(num);
+                }
+            }
+        }
+
+        return st.size();
     }
 };
