@@ -29,8 +29,9 @@ public:
                 }
             }
         }
-        if(low < 0 || low >= n) return -1;
-        else if(nums[low] != target) return -1;
-        return low;
+        // if(low < 0 || low >= n) return -1;
+        // else if(nums[low] != target) return -1;
+        // return low;
+        return -1;
     }
 };
