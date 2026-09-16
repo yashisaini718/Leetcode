@@ -7,8 +7,8 @@ public:
 
         int last = upper_bound(nums.begin(),nums.end(), target) - nums.begin();
 
-        if (first == last && nums[first] == target) return {first,first};
-        else if (nums[first] == target && nums[last-1] == target) return {first,last-1};
+        //if (first == last && nums[first] == target) return {first,first};
+        if (nums[first] == target && nums[last-1] == target) return {first,last-1};
         else return {-1,-1};
     }
 };
