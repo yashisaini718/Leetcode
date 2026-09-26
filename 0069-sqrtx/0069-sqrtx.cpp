@@ -1,21 +1,23 @@
 class Solution {
 public:
-    int mySqrt(int x) {
-        if (x == 0) return 0;
-        if (x == 1) return 1;
-        int l = 1;
-        int r = x/2;
-        int ans = 0;
-        while(l <= r) {
-            int mid = l + (r-l)/2;
-            if ( mid*1L*mid <= x){
-                ans = mid;
-                l = mid + 1;
+// NEED TO FIND largest number whose square is less than equal to x
+    int mySqrt(int n) {
+        if (n == 1 || n == 0) return n;
+        int low = 2;
+        int high = n/2;
+        int ans = 1;
+
+        while(low <= high) {
+            int mid = low + (high - low) / 2;
+            if(mid <= n/mid){
+                ans = max(ans,mid);
+                low = mid + 1;
             }
             else {
-                r = mid - 1;
-            } 
+                high = mid - 1;
+            }
         }
+
         return ans;
     }
 };
