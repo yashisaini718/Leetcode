@@ -1,9 +1,9 @@
 class Solution {
 public:
     int minAddToMakeValid(string s) {
-        //stack<char>stk;
-        int open = 0;
-        int cnt = 0;
+        
+        int open = 0; // available bracket
+        int cnt = 0; // required bracket
         for(char c : s) {
             if (c == '('){
                 open++;
