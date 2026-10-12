@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/yashisaini718/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1768-merge-strings-alternately](https://github.com/yashisaini718/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [1859-sorting-the-sentence](https://github.com/yashisaini718/Leetcode/tree/master/1859-sorting-the-sentence) |
+| [1915-number-of-wonderful-substrings](https://github.com/yashisaini718/Leetcode/tree/master/1915-number-of-wonderful-substrings) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/yashisaini718/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2785-sort-vowels-in-a-string](https://github.com/yashisaini718/Leetcode/tree/master/2785-sort-vowels-in-a-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/yashisaini718/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/yashisaini718/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/yashisaini718/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1386-cinema-seat-allocation](https://github.com/yashisaini718/Leetcode/tree/master/1386-cinema-seat-allocation) |
+| [1915-number-of-wonderful-substrings](https://github.com/yashisaini718/Leetcode/tree/master/1915-number-of-wonderful-substrings) |
 | [2094-finding-3-digit-even-numbers](https://github.com/yashisaini718/Leetcode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yashisaini718/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/yashisaini718/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -265,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/yashisaini718/Leetcode/tree/master/1732-find-the-highest-altitude) |
+| [1915-number-of-wonderful-substrings](https://github.com/yashisaini718/Leetcode/tree/master/1915-number-of-wonderful-substrings) |
 | [3312-sorted-gcd-pair-queries](https://github.com/yashisaini718/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/yashisaini718/Leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/yashisaini718/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -426,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0191-number-of-1-bits](https://github.com/yashisaini718/Leetcode/tree/master/0191-number-of-1-bits) |
 | [1386-cinema-seat-allocation](https://github.com/yashisaini718/Leetcode/tree/master/1386-cinema-seat-allocation) |
+| [1915-number-of-wonderful-substrings](https://github.com/yashisaini718/Leetcode/tree/master/1915-number-of-wonderful-substrings) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/yashisaini718/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/yashisaini718/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Number Theory
