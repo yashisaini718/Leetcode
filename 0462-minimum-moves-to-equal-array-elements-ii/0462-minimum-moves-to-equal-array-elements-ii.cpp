@@ -3,23 +3,19 @@ public:
     
     int minMoves2(vector<int>& nums) {
         int n = nums.size();
-        unordered_map<long long,long long>mpp;
+        sort(nums.begin(), nums.end());
+        long long t;
+        if(n & 1) t = nums[n/2];
+        else {
+            long long n1 = nums[n/2 - 1];
+            long long n2 = nums[n/2];
+            t = (n1 + n2) / 2;
+        }
+        
+        long long dis = 0;
         for(int i = 0 ; i < n ; i ++) {
-            mpp.insert({nums[i],0});
+            dis += abs(t - nums[i]);
         }
-        for(auto &it : mpp) {
-            int t = it.first;
-            long long sum = 0;
-            for(int i = 0 ; i < n ; i ++ ){
-                sum += abs(nums[i]-t);
-            }
-            mpp[t] = sum;
-        }
-
-        long long great = LONG_MAX;
-        for(int i = 0 ; i < n ; i ++) {
-            if(mpp[nums[i]] < great) great = mpp[nums[i]];
-        }
-        return (int)great;
+        return dis;
     }
 };
